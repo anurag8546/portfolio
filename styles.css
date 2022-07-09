@@ -154,3 +154,152 @@ font-weight:bold;
     text-decoration:none;
     color:blue;
 }
+.div4
+{
+    margin-top:10px;
+    border: 2px solid black;
+    /* padding:50px; */
+    margin-bottom:10px;
+    text-align:justify-content;
+    margin-left:200px;   
+    margin-right:200px;   
+padding: 10px 50px 10px 50px;
+}
+.div5{
+    
+    margin-top:10px;
+    border: 2px solid black;
+    /* padding:50px; */
+    margin-bottom:10px;
+    text-align:justify-content;
+    margin-left:200px;   
+    margin-right:200px;   
+padding: 10px 50px 10px 50px;
+    
+}
+.head1{
+    text-align:center;
+
+}
+.head2{
+    color:orange;
+}
+
+.react{
+    font-weight:bold;
+}
+
+
+/* Styling contact page*/
+
+.sec{
+    margin: 50px ;
+     background-color:#eff4fd;
+ }
+ 
+ .address{
+    /* border: 2px solid green;*/
+     float: left;
+     width: 35%;
+     height: 70vh;
+   background-color: white;
+     padding: 10px;
+     margin-left: 150px;
+     height: 500px;
+ }
+ .form{
+    /* border: 2px solid yellow;*/
+     float: right;
+ width: 35%;
+ background-color: white;
+ margin-right: 150px;
+ padding: 10px;
+ 
+ }
+ .sec::after{
+     content: '';
+ display: inline-block;
+ clear: both;
+ 
+ }
+ .address i{
+     display: inline-block;
+     margin-right: 10px;
+ }
+ .address h2{
+     display: inline-block;
+     text-transform: uppercase;
+     
+ }
+ .address p{
+     color: black;
+ }
+ .address .head2{
+     margin-bottom:5px ;
+     margin-top: 5px;
+ }
+ .address .head1{
+     margin-bottom:5px ;
+ }
+ .address .call{
+     margin-bottom: 5px;
+     margin-top: 5px;
+ }
+ .address img{
+     max-width: 80%;
+     min-height: 100%;
+     object-fit: cover;
+     margin-top: 30px;
+     object-position: right;
+ }
+ /*###################form styling#################*/
+ .form-element{
+     font-size: 20px;
+     
+ }
+ .form .contact{
+     border-bottom: 3px solid orange;
+     margin-bottom: 20px;
+ }
+ .form p{
+     margin-bottom: 20px;
+ }
+ .form label{
+     display: block;
+ }
+ .form input{
+     padding: 5px;
+     width: 98%;
+     
+ }
+ .form .form-element{
+     margin-bottom: 10px;
+ }
+ .form label::after{
+     content:'*';
+     color: orange;
+ }
+ .form textarea{
+     width: 99%;
+     height: 100px;
+ }
+ .form{
+     padding: 10px;
+     height: 500px;
+ }
+ .lastbutton{
+     display: block;
+     margin: 0 auto;
+     padding: 10px;
+     font-size: 15px;
+     text-transform: uppercase;
+     background: orange;
+     color:black;
+     outline:none;
+     border:none;
+     cursor: pointer;
+ }
+
+ .add{
+     color:orange;
+ }
