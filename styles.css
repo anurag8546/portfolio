@@ -13,39 +13,10 @@
         position: relative;
         /* background: #eff4fd; */
     }
-    /* nav {
-        display: flex;
-        width: 84%;
-        margin: auto;
-        padding: 20px 0;
-        align-items: center;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-    
-    .logo {
-        width: 100px;
-        cursor: pointer;
-    }
-    
-    nav ul li {
-        display: inline-block;
-        list-style: none;
-        margin: 10px 20px;
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color: #000;
-        font-weight: bold;
-    }
-    
-    nav ul li a:hover {
-        color: orange;
-    } */
     
     nav {
         background: #eff4fd;
+        font-family: sans-serif;
         height: 80px;
         width: 100%;
     }
@@ -60,26 +31,38 @@
     
     nav ul {
         float: right;
+        font-family: sans-serif;
         margin-right: 20px;
     }
     
     nav ul li {
         display: inline-block;
         line-height: 80px;
+        font-family: sans-serif;
         margin: 0 5px;
     }
     
     nav ul li a {
         color: black;
-        font-size: 17px;
+        font-size: 15px;
         padding: 7px 13px;
+        font-family: sans-serif;
+        font-weight: bold;
         border-radius: 3px;
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+    }
+    /* a.active {
+        color: orange;
+    }
+     */
+    
+    a:active {
+        color: orange;
     }
     
-    a.active,
     a:hover {
-        background: orange;
+        color: orange;
         transition: .5s;
     }
     
@@ -130,9 +113,7 @@
         nav ul li a {
             font-size: 20px;
         }
-        a:hover,
-        a.active {
-            background: none;
+        a:hover {
             color: orange;
         }
         #check:checked~ul {
