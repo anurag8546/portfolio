@@ -410,10 +410,6 @@ MEDIA STYLING
             height: 100%;
             background-color: #eff4fd;
         }
-        .form_div {
-            margin-left: 20px;
-            margin-right: 20px;
-        }
         .address {
             margin-left: 20px;
             margin-right: 20px;
@@ -441,12 +437,14 @@ MEDIA STYLING
         .address {
             border: 2px solid orange;
             float: none;
-            width: 90%;
-            height: 60vh;
+            width: 110%;
+            height: 40vh;
             background: #eff4fd;
-            padding: 10px;
-            margin-left: 22px;
+            padding: 10px 20px 10px 20px;
+            margin-left: 0px;
             margin-right: 0px;
+            margin-bottom: 0px;
+            padding-top: 50px;
             height: 500px;
             box-shadow: #212121, 1rem, 2rem, 2rem;
         }
